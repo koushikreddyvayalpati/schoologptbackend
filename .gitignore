@@ -1,0 +1,101 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+/main
+/api
+/schoolgpt-api
+/schoolgpt
+*.test
+*.out
+
+# Go coverage files
+*.cover
+*.coverprofile
+
+# Go workspace file
+go.work
+
+# Environment files
+.env
+.env.local
+.env.production
+*.env
+
+# Firebase credentials (keep example)
+firebase-credentials.json
+
+# Node modules and build artifacts
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build output
+build/
+dist/
+*/build/
+*/dist/
+
+# Cache directories
+.npm
+.yarn/cache
+.cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+tmp/
+temp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.backup
+*.bak
+
+# Docker volumes
+docker-data/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Dependency directories for scripts
+scripts/*/node_modules/ 

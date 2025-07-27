@@ -1,0 +1,46 @@
+{
+  "name": "schoolgpt-admin-portal",
+  "version": "1.0.0",
+  "description": "Modern Admin Portal for SchoolGPT - AI-Powered School Management",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "axios": "^1.3.0",
+    "clsx": "^1.2.1",
+    "firebase": "^11.10.0",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.60.0",
+    "react-query": "^3.39.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.8.0",
+    "tailwind-merge": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.35.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
