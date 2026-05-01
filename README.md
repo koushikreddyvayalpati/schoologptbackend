@@ -84,14 +84,6 @@ docker-compose up
 # OR run locally
 go run cmd/api/main.go
 
-## Environment Variables
-
-
-OPENAI_API_KEY=your_openai_key
-FIREBASE_PROJECT_ID=your_project_id
-GOOGLE_APPLICATION_CREDENTIALS=path/to/credentials.json
-PORT=8080
-ENVIRONMENT=development
 
 
 See env.example for the complete list.
@@ -119,6 +111,5 @@ schoolgpt/
 ## Built By
 Koushik Reddy Vayalpati
 MS Computer Science — University at Buffalo
-AI & Machine Learning Specialization
-linkedin.com/in/YOUR_LINKEDIN   |   github.com/koushikreddyvayalpati
+AI & Machine Learning Specialization  |   github.com/koushikreddyvayalpati
 
